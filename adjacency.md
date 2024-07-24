@@ -1,5 +1,5 @@
 
-### Image Processing Adjacency
+### Adjacency
 
 In image processing, the terms **4-adjacency**, **8-adjacency**, and **m-adjacency** refer to different types of pixel connectivity:
 
