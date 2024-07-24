@@ -10,17 +10,15 @@ This project showcases the creation of basic geometric shapes (circle, square, a
 
 ### Circle
 
-![Circle Output](output/plot_01.png)
+<img src="output/plot_01.png" alt="Circle Output" width="300"/>
 
 ### Square
 
-![Square Output]
-(output/plot_02.png)
+<img src="output/plot_02.png" alt="Square Output" width="300"/>
 
 ### Triangle
 
-![Triangle Output]
-(output/plot_03.png)
+<img src="output/plot_03.png" alt="Triangle Output" width="300"/>
 
 ## Smoothing Algorithm
 
@@ -30,8 +28,7 @@ The smoothing algorithm uses a 3x3 average filter. For each pixel $(i,j)$ in the
 
 The project displays the original and smoothed versions of each shape, along with 3D representations of the intensity values.
 
-![Comparison Output]
-(output/plot_04.png)
+<img src="output/plot_04.png" alt="Smoothing Output" width="300"/>
 
 ## Abstraction
 
@@ -63,6 +60,6 @@ $$I'(i,j) = \frac{1}{9} \sum_{k=-1}^1 \sum_{l=-1}^1 I(i+k, j+l)$$
 
 where $I$ is the original image and $I'$ is the smoothed image.
 
-This operation replaces each pixel's intensity with the average intensity of its 3x3 neighborhood.
+This operation replaces each pixel's intensity with the average intensity of its $3x3$ neighborhood.
 
 
