@@ -60,6 +60,6 @@ $$I'(i,j) = \frac{1}{9} \sum_{k=-1}^1 \sum_{l=-1}^1 I(i+k, j+l)$$
 
 where $I$ is the original image and $I'$ is the smoothed image.
 
-This operation replaces each pixel's intensity with the average intensity of its $3x3$ neighborhood.
+This operation replaces each pixel's intensity with the average intensity of its 3x3 neighborhood.
 
 
