@@ -51,25 +51,25 @@ fill_color_channel(3, 'red green blue')
 Below are examples of the output for different color combinations:
 
 ### Red Gradient
-<img src="output/plot_01.png" alt="Red" width="900"/>
+<img src="output/output_01.png" alt="Red" width="900"/>
 
 ### Green Gradient
-<img src="output/plot_02.png" alt="Green" width="900"/>
+<img src="output/output_02.png" alt="Green" width="900"/>
 
 ### Blue Gradient
-<img src="output/plot_03.png" alt="Blue" width="900"/>
+<img src="output/output_03.png" alt="Blue" width="900"/>
 
 ### Yellow Gradient (Red + Green)
-<img src="output/plot_04.png" alt="Yellow" width="900"/>
+<img src="output/output_04.png" alt="Yellow" width="900"/>
 
 ### Purple Gradient (Red + Blue)
-<img src="output/plot_05.png" alt="Purple" width="900"/>
+<img src="output/output_05.png" alt="Purple" width="900"/>
 
 ### Cyan Gradient (Green + Blue)
-<img src="output/plot_06.png" alt="Cyan" width="900"/>
+<img src="output/output_06.png" alt="Cyan" width="900"/>
 
 ### White/Gray Gradient (Red + Green + Blue)
-<img src="output/plot_07.png" alt="Gray" width="900"/>
+<img src="output/output_07.png" alt="Gray" width="900"/>
 
 These visualizations help to understand how digital images are composed of separate color channels, and how these channels combine to create different colors.
 
