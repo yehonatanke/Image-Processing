@@ -46,7 +46,7 @@ fill_color_channel(3, 'green blue')
 fill_color_channel(3, 'red green blue')
 ```
 
-## Output
+## Output (Without Matricies)
 
 Below are examples of the output for different color combinations:
 
@@ -70,6 +70,33 @@ Below are examples of the output for different color combinations:
 
 ### White/Gray Gradient (Red + Green + Blue)
 <img src="output/output_07.png" alt="Gray" width="900"/>
+
+## Output (With Matricies)
+
+Below are examples of the output for different color combinations in the matrix combination:
+
+### Red Gradient
+<img src="output/matrix_output_01.png" alt="Red" width="900"/>
+
+### Green Gradient
+<img src="output/matrix_output_02.png" alt="Green" width="900"/>
+
+### Blue Gradient
+<img src="output/matrix_output_03.png" alt="Blue" width="900"/>
+
+### Yellow Gradient (Red + Green)
+<img src="output/matrix_output_04.png" alt="Yellow" width="900"/>
+
+### Purple Gradient (Red + Blue)
+<img src="output/matrix_output_05.png" alt="Purple" width="900"/>
+
+### Cyan Gradient (Green + Blue)
+<img src="output/matrix_output_06.png" alt="Cyan" width="900"/>
+
+### White/Gray Gradient (Red + Green + Blue)
+<img src="output/matrix_output_07.png" alt="Gray" width="900"/>
+
+
 
 These visualizations help to understand how digital images are composed of separate color channels, and how these channels combine to create different colors.
 
