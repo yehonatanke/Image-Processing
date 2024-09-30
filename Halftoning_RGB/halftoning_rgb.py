@@ -100,8 +100,7 @@ def ordered_dithering(image, dither_matrix=None):
     # Convert back to uint8 and return the image
     return Image.fromarray(image.astype(np.uint8))
 
-# Load an image using PIL
-image_path = 'path_to_your_image.jpg'
+image_path = 'input/img1.png'
 image = Image.open(image_path).convert('RGB')
 
 # Apply Floyd-Steinberg error diffusion halftoning
