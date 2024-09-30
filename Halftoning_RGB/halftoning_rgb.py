@@ -23,7 +23,6 @@ Dithering uses a predefined pattern (dithering matrix) to modulate the color val
   - This results in a patterned halftone effect.
 """
 
-
 def floyd_steinberg_error_diffusion(image):
     """
     Applies Floyd-Steinberg error diffusion to an RGB image.
@@ -100,13 +99,18 @@ def ordered_dithering(image, dither_matrix=None):
     # Convert back to uint8 and return the image
     return Image.fromarray(image.astype(np.uint8))
 
-image_path = 'input/img1.png'
-image = Image.open(image_path).convert('RGB')
+def main():
+  image_path = 'input/img1.png'
+  image = Image.open(image_path).convert('RGB')
+  
+  # Apply Floyd-Steinberg error diffusion halftoning
+  error_diffusion_image = floyd_steinberg_error_diffusion(image)
+  error_diffusion_image.show()
+  
+  # Apply ordered dithering halftoning
+  ordered_dithering_image = ordered_dithering(image)
+  ordered_dithering_image.show()
 
-# Apply Floyd-Steinberg error diffusion halftoning
-error_diffusion_image = floyd_steinberg_error_diffusion(image)
-error_diffusion_image.show()
 
-# Apply ordered dithering halftoning
-ordered_dithering_image = ordered_dithering(image)
-ordered_dithering_image.show()
+if __name__ == "__main__":
+    main()
