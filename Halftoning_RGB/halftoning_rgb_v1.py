@@ -82,9 +82,7 @@ def ordered_dithering(image):
     
     return output.astype(np.uint8)
 
-
-if __name__ == "__main__":
-
+def main():
     input_image = np.array(Image.open("input/image1.png"))
     
     # Apply error diffusion
@@ -94,3 +92,8 @@ if __name__ == "__main__":
     # Apply dithering
     dithering_result = ordered_dithering(input_image)
     Image.fromarray(dithering_result).save("output/dithering_result.png")
+
+
+if __name__ == "__main__":
+    main()
+
