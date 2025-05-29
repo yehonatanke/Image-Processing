@@ -2,7 +2,8 @@
 
 ## Overview
 
-This program implements error diffusion dithering on grayscale images. It reduces the number of gray levels in an image while maintaining visual quality through error diffusion. The program can process multiple images with varying numbers of gray levels.
+Implements error diffusion dithering on grayscale images. It reduces the number of gray levels in an image while maintaining visual quality through error diffusion. Can process multiple images with varying numbers of gray levels.
+
 ## Error Diffusion
 
 Error diffusion is a technique used in image processing to reduce the color palette of an image while maintaining its visual quality. It's particularly useful for converting grayscale images with many shades to images with fewer shades, such as for display on devices with limited color capabilities.
@@ -131,23 +132,6 @@ As you can see from these examples:
 3. The error diffusion technique is particularly effective at preserving edges and important features in the images.
 4. Even with only 5 levels, the dithered images appear quite close to the originals, demonstrating the effectiveness of this technique.
 
-
-## Project Structure
-
-```
-.
-├── input/
-│   ├── lena.gif
-│   ├── cameraman.jpg
-│   └── tungsten_original.JPG
-├── output/
-│   └── (generated dithered images)
-├── src/
-│   ├── error_diffusion.py
-│   └── main.py
-└── README.md
-```
-
 ## Functions
 
 ### In `error_diffusion.py`:
@@ -155,7 +139,6 @@ As you can see from these examples:
 - `quantize(value, levels)`: Finds the closest available gray level for a given pixel value.
 - `error_diffusion(image, m)`: Performs error diffusion dithering on the input image.
 - `process_image(image_path, m, save_to_dir)`: Loads an image, performs error diffusion, displays results, and optionally saves the output.
-
 
 ## Features
 
