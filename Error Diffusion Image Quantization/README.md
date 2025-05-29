@@ -1,7 +1,5 @@
 # Image Dithering 
 
-## Overview
-
 Implements error diffusion dithering on grayscale images. It reduces the number of gray levels in an image while maintaining visual quality through error diffusion. Can process multiple images with varying numbers of gray levels.
 
 ## Error Diffusion
