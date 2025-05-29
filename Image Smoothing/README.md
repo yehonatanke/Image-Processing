@@ -1,6 +1,6 @@
 # Image Smoothing 
 
-This project demonstrates various image processing techniques, including the creation of geometric shapes and the application of a smoothing algorithm.
+Demonstrates various image processing techniques, including the creation of geometric shapes and the application of a smoothing algorithm.
 
 ## Overview
 
